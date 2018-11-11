@@ -1,2 +1,9 @@
-spring.application.name: l3-client
-spring.cloud.config.uri: http://localhost:8001
+---
+spring:
+  profiles:
+    active: southamerica
+  application:
+    name: l3-client
+  cloud:
+    config:
+      uri: http://localhost:8001

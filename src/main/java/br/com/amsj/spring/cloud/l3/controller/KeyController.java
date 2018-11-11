@@ -16,17 +16,17 @@ public class KeyController {
 	@Value("${key-test-3}")
 	String keyTest3;
 
-	@GetMapping("/keytesteone")
+	@GetMapping("/keytestone")
 	public String keyTest1() {
 		return "The key-test-1: " + keyTest1;
 	}
 	
-	@GetMapping("/keytestetwo")
+	@GetMapping("/keytesttwo")
 	public String keyTest2() {
 		return "The key-test-2: " + keyTest2;
 	}
 	
-	@GetMapping("/keytestethree")
+	@GetMapping("/keytestthree")
 	public String keyTest3() {
 		return "The key-test-3: " + keyTest3;
 	}
