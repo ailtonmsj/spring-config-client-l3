@@ -1,4 +1,5 @@
-server.port: 8002
+server:
+  port: 8002
 
 # defaults values when the server config is not up
 key-test-1: default-value-file1
